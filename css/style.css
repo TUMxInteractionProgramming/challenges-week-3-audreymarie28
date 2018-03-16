@@ -23,6 +23,14 @@ button, strong {
 }
 
 
+/* OVERALL CHANNELS SIDE */
+#channels {
+    position:absolute;
+    left:0;
+    top:0;
+    width:50%;
+}
+
 
 /* APP BAR */
 
@@ -30,6 +38,22 @@ button, strong {
 h1 {
     background-color: #3F51B5;
     color: white;
+    height:24px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    line-height:24px;
+}
+
+h1#channel-header {
+    padding-left:72px;
+}
+
+h1 img {
+    position:absolute;
+    top:-8px;
+    padding:16px;
+    left:0;
+    
 }
 
 
@@ -63,6 +87,7 @@ li img {
     /* #4 #middle vertical alignment of icons in the #channels list */
     vertical-align: middle;
 }
+
 
 /* TAB BAR */
 
@@ -98,6 +123,13 @@ li img {
     border-bottom: 4px solid #3F51B5;
 }
 
+/*OVERALL MESSAGE SIDE*/
+#chat {
+    position:absolute;
+    top:0;
+    right:0;
+    width:50%;
+}
 
 /* MESSAGES */
 /* #4 select #specific #messages by class and re-assign element styles according to their #hierarchy in a nested way */
